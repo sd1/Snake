@@ -53,7 +53,6 @@ namespace Snake
                 Body.RemoveFirst();
             }
             Body.AddLast(newHead);
-            Console.WriteLine(Body.ToString());
         }
 
         public void ChangeDirection(Direction newDirection)
